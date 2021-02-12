@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dgc-fs:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>dgc-fs</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="dgc-fs-0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="dgc-fs:war exploded" />
+    </root>
+  </artifact>
+</component>
